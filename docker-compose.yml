@@ -26,7 +26,7 @@ services:
     depends_on:
       - postgres
     volumes:
-      - .n8n:/home/node/.n8n
+      - ./.n8n:/home/node/.n8n
 
   postgres:
     image: postgres:15

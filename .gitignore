@@ -1,2 +1,5 @@
 .db
 .n8n
+.npm_data
+.npm_letsencrypt
+.db_n8n_postgres
