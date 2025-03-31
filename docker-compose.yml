@@ -54,7 +54,7 @@ services:
 
   adminer:
     image: adminer:latest
-    container_name: adminer
+    container_name: n8n_adminer
     depends_on:
       - postgres
     #ports:
